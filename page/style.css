@@ -1,0 +1,36 @@
+body{
+	font-family:'Microsoft YaHei', Arial;
+	background-image: url(back.jpg);
+	background-width:100%;
+	background-size=cover;
+	background-attachment: fixed;
+}
+.text{
+	overflow: hidden;
+	width: 800px;
+	margin:10px auto 0px auto;
+}
+.head{
+	margin-top: 0px;
+	height: 100px;
+}
+.head img{
+	width:200px;
+	height: 100px;
+	float: left;
+}
+.head h1 {
+	padding-top: 0px;
+	color:#fff;
+	float: left;
+}
+.head h2{
+	color: #fff;
+	
+	padding-top: 30px;
+}
+.text form {
+	padding-top: 0px;
+	text-align: center;
+	margin:150px auto 0px auto;
+}

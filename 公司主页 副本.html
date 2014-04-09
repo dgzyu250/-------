@@ -1,0 +1,113 @@
+<html>
+<head>
+	<meta charset="UTF-8">
+	<title>公司主页副本</title>
+	<link rel="stylesheet" type="text/css" href="./page/style3.css"> 
+    <script language="javascript" type="text/javascript"> 
+     //显示层 
+     function showDiv(divName) 
+     { 
+     document.getElementById(divName).style.display = "block"; 
+     } 
+     //隐藏层 
+     function hiddenDiv(divName) 
+     { 
+     document.getElementById(divName).style.display = "none"; 
+     } 
+    </script> 
+</head>
+
+<body>
+
+	<div class="head">
+		<a href="">安全退出</a>
+	</div>
+
+	<!--整个页面-->
+	<div class="page">
+		<div class="list_left">
+			<a href="">首页</a>
+			<a href="">信息</a>
+			<a href="">召集令</a>
+			<a href="">公共主页</a>
+			<a href="">最近访问</a>
+			<br><br>
+			<a href="">通讯录</a>
+			<a href="">特别关注</a>
+			<div id="menu">
+			
+			<a href="#" onmouseover="showDiv('div4')" onmouseout="hiddenDiv('div4')">同事</a> 
+			<!--2级导航-->
+			<div id="div4" onmouseover="showDiv(this.id)" onmouseout="hiddenDiv(this.id)"> 
+			<ul>
+				<li>董事长-汪嘚瑟</li>
+				<li>总经理-孙小二</li>
+				<li>人事部</li>
+				<li>部长-张刘明</li>
+				<li>部员-王小明</li>
+				<li>部员-王二明</li>
+			</ul>
+			</div>
+
+			</div>
+			<a href="">自定义分组</a>
+		</div>
+
+		<!--中间内容-->
+		<div class="text">
+
+			<div class="content">
+				<div class="flag1">
+				<p>圈主昵称：</p>
+				</div>
+				<img src="">
+				<p>&nbsp;&nbsp;圈名:<br>&nbsp;&nbsp;圈介绍:<br>&nbsp;&nbsp;圈共享：<br></p>
+			</div>
+
+		<!--评论框-->
+			<div class="content1">
+				<form>
+				<textarea rows="5px" cols="68px"></textarea><br>
+				<input type="submit" value="发布">
+				</form>
+			</div>
+
+			<hr>
+			<div class="content2">
+				<img src="page/1.bmp">
+				<div class="content2_right">
+				<p>人事部王小明<br>
+				部长，新的一批求职简历已经到了，正在审阅中@人事部张刘明</p>
+				<br>
+				<br>
+				<input id="pinglun" type="submit" value="评论" >
+
+				<div class="content3">
+				<textarea rows="2px"  cols="60px"></textarea>
+				<input type="submit" value="评论">
+				<img src="">
+				<p>：人事部张刘明：好，尽量找几个技术强点的，技术部那边老是喊缺人(20秒前）</p>
+				<input type="submit" value="回复">
+				</div>
+				</div>
+			</div>
+		</div>
+
+		<div class="list_right">
+			<img src="" >
+			<p>  昵称:</p>
+			<div class="tag">
+			<p>个人设置</p>
+			</div>
+			<p>我的主页</p>
+			<p>创建微博</p>
+			<br>
+			
+			<p>我加入的微圈</p>
+			<p>&nbsp;&nbsp;&nbsp;&nbsp;企业微圈</p>
+			<p>&nbsp;&nbsp;&nbsp;&nbsp;企业联盟</p>
+			<p>&nbsp;&nbsp;&nbsp;&nbsp;自定义分组</p>
+		</div>
+	</div>
+</body>
+</html>

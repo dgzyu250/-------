@@ -1,0 +1,124 @@
+body {
+    font-family: 'Microsoft YaHei', Arial;
+    background-image: url(back.jpg);
+    background-size: 100%;
+    background-attachment: fixed;
+}
+.head{
+	background-image: url(head.png);
+	background-size: cover;
+	background-repeat: no-repeat;;
+	width: 800px;
+	height: 150px;
+	margin: 50px auto 0px auto;
+	overflow: hidden;
+}
+
+.head a{
+	float: right;
+	text-decoration: none;
+}
+.page{
+	width: 800px;
+	margin: 0px auto 0px auto;
+	border: 1px solid #fff;
+}
+.page a{
+	text-decoration: none;
+	display: block;
+	color: #000;
+}
+ul li{
+	color: #000;
+	list-style-type: none;
+}
+.list_left {
+	width:150px;
+	height: 500px;
+	background-color: #fff;
+	float: left;
+}
+.list_left a{
+	display: block;
+	width: 120px;
+	margin: 0px auto;
+}
+
+.text{
+	float: left;
+	width: 500px;
+	height: 500px;
+	background-color: #fff;
+}
+.content{
+	float: left;
+	width:500px;
+	background-color: #fff;
+	height: 50px;
+}
+
+.content p{
+	float: right;
+}
+.content1 {
+	float: left;
+	width: 500px;
+	height: 110px;
+	background-color: #fff;
+}
+.content1 input{
+	float: right;
+}
+.content2 img{
+	height: 60px;
+	width: 50px;
+	float: left;
+	padding-top: 0px;
+}
+.content2 p{
+	padding-top: 5px;
+}
+.content2_right{
+	width: 450px;
+	margin-left: 50px;
+}
+#pinglun{
+	margin-top: -20px;
+	margin-left: 400px;
+}
+.content3{
+	border:2px solid #000;
+	background-color: #eee;
+}
+.content3 textarea{
+	margin:6px 3px;
+}
+.content3 input{
+	margin-left: 400px;
+}
+.content3 img{
+	width: 30px;
+	height: 30px;
+	background-color: #fff;
+	float: left;
+	margin-top: 10px;
+}
+.content3 p{
+	margin-top: 10px;
+}
+.list_right{
+	width: 150px;
+	float: right;;
+	height:500px;
+	background-color: #fff;
+}
+.list_right img{
+	height: 80px;
+	width: 80px;
+	float: left;
+	margin-top: 0px;
+	background-color: #eee;
+}
+.tag{
+	clear: both;
+}
